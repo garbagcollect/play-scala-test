@@ -3,7 +3,8 @@
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
 
-
+# Route user manager
+->      /api/user                   api.UserRouter
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
